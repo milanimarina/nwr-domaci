@@ -1,0 +1,21 @@
+
+@mixin kreiraj-dugme ($boja-pozadine){
+    color: white;  
+    border: none;
+    border-radius: 6px;
+    margin: .5rem;
+    transition: all .3s;
+    background-color: $boja-pozadine;
+    &:hover{
+        background-color: darken($boja-pozadine,25% );
+    }
+}
+
+@mixin bez-okvira{
+
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: white;
+    color: gray;
+}

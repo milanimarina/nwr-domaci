@@ -1,0 +1,104 @@
+.form {
+  -webkit-box-shadow: 0px 0px 15px lightgray;
+          box-shadow: 0px 0px 15px lightgray;
+  width: 400px;
+  margin: auto;
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.form h3 {
+  color: gray;
+}
+
+.form-content {
+  padding: 1rem;
+}
+
+.form-content .button-1 {
+  padding: .5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: .5rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background-color: blue;
+}
+
+.form-content .button-1:hover {
+  background-color: navy;
+}
+
+.form-content .button-2 {
+  padding: .5rem 1.5rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: .5rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background-color: red;
+}
+
+.form-content .button-2:hover {
+  background-color: maroon;
+}
+
+.form-demand .data {
+  padding: .3rem 1rem;
+  margin: .2rem;
+}
+
+.form-submit .button-3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: white;
+  color: gray;
+  color: gray;
+  margin-left: 5rem;
+}
+
+.form-submit .button-5 {
+  padding: .5rem 5rem;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin: .5rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background-color: blue;
+}
+
+.form-submit .button-5:hover {
+  background-color: navy;
+}
+
+.form-submit .button-4 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial;
+}
+/*# sourceMappingURL=style.css.map */
